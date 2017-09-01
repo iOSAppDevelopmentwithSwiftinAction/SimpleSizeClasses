@@ -195,12 +195,14 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5M6U4VTSB8;
 						DevelopmentTeamName = "Craig Grummitt";
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					B9FD90A31D19AE43008B540F = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5M6U4VTSB8;
 						DevelopmentTeamName = "Craig Grummitt";
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B9FD908F1D19AE43008B540F;
 					};
@@ -208,6 +210,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5M6U4VTSB8;
 						DevelopmentTeamName = "Craig Grummitt";
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B9FD908F1D19AE43008B540F;
 					};
@@ -418,7 +421,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.SimpleSizeClasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -430,7 +434,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.SimpleSizeClasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -442,7 +447,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.SimpleSizeClassesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleSizeClasses.app/SimpleSizeClasses";
 			};
 			name = Debug;
@@ -455,7 +461,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.SimpleSizeClassesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleSizeClasses.app/SimpleSizeClasses";
 			};
 			name = Release;
@@ -467,7 +474,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.SimpleSizeClassesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = SimpleSizeClasses;
 			};
 			name = Debug;
@@ -479,7 +487,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.interactivecoconut.SimpleSizeClassesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = SimpleSizeClasses;
 			};
 			name = Release;
@@ -503,6 +512,7 @@
 				B9FD90BA1D19AE43008B540F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9FD90BB1D19AE43008B540F /* Build configuration list for PBXNativeTarget "SimpleSizeClassesTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +521,7 @@
 				B9FD90BD1D19AE43008B540F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9FD90BE1D19AE43008B540F /* Build configuration list for PBXNativeTarget "SimpleSizeClassesUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +530,7 @@
 				B9FD90C01D19AE43008B540F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
