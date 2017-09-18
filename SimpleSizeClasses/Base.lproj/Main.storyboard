@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -48,7 +47,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XeA-Vh-qni" firstAttribute="centerX" secondItem="uE3-q8-slK" secondAttribute="centerX" id="9vv-vQ-5nX"/>
-                            <constraint firstItem="LA9-q5-61u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Klj-ZG-Fil">
+                            <constraint firstItem="LA9-q5-61u" firstAttribute="leading" secondItem="uE3-q8-slK" secondAttribute="leading" constant="16" id="Klj-ZG-Fil">
                                 <variation key="heightClass=regular-widthClass=regular" constant="50"/>
                             </constraint>
                             <constraint firstItem="uE3-q8-slK" firstAttribute="bottom" secondItem="LA9-q5-61u" secondAttribute="bottom" constant="8" id="MRj-Qy-RAa"/>
@@ -56,7 +55,7 @@
                             <constraint firstItem="dSY-Dk-lvU" firstAttribute="centerX" secondItem="uE3-q8-slK" secondAttribute="centerX" id="X1u-UI-D1e"/>
                             <constraint firstItem="XeA-Vh-qni" firstAttribute="top" secondItem="uE3-q8-slK" secondAttribute="top" id="YQG-he-bPo"/>
                             <constraint firstItem="dSY-Dk-lvU" firstAttribute="top" secondItem="XeA-Vh-qni" secondAttribute="bottom" constant="8" id="ezI-4R-DjS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="LA9-q5-61u" secondAttribute="trailing" id="pBc-pL-iXW">
+                            <constraint firstItem="uE3-q8-slK" firstAttribute="trailing" secondItem="LA9-q5-61u" secondAttribute="trailing" constant="16" id="pBc-pL-iXW">
                                 <variation key="heightClass=regular-widthClass=regular" constant="50"/>
                             </constraint>
                             <constraint firstItem="LA9-q5-61u" firstAttribute="top" secondItem="dSY-Dk-lvU" secondAttribute="bottom" constant="8" id="slI-dK-69n"/>
@@ -67,9 +66,9 @@
                                 <exclude reference="dSY-Dk-lvU"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="slI-dK-69n"/>
                                 <exclude reference="X1u-UI-D1e"/>
                                 <exclude reference="ezI-4R-DjS"/>
+                                <exclude reference="slI-dK-69n"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -77,10 +76,10 @@
                                 <include reference="dSY-Dk-lvU"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="R2Z-c4-k1i"/>
-                                <include reference="slI-dK-69n"/>
                                 <include reference="X1u-UI-D1e"/>
                                 <include reference="ezI-4R-DjS"/>
+                                <exclude reference="R2Z-c4-k1i"/>
+                                <include reference="slI-dK-69n"/>
                             </mask>
                         </variation>
                     </view>
